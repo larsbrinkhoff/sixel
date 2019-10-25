@@ -1,0 +1,11 @@
+The VT220 has very limited sixel capabilities.  It can only redefine
+character bitmaps, and there only 94 printable characters available.
+The character grid is 8 pixels wide and 10 pixels high.
+
+This has been tested on a real VT220:
+
+P1;1;1{ @~~~~~~~~/~~~~~~~~\
+( @
+!!!
+!!!
+(B
